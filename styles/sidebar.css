@@ -1,0 +1,61 @@
+.sidebar{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 135px;
+  background-color: white;
+  width: 210px;
+  
+  overflow-y:scroll;
+
+}
+
+.sidebar-link{
+  margin-left: 15px;
+  height: 45px;
+  border-radius: 8px;
+  position: relative;
+  display: flex;
+  align-items: center;
+ 
+  
+ }
+ .sidebar-link:hover{
+  background-color: rgba(235, 238, 238, 0.993);
+ }
+
+ .sidebar-link img{
+  height: 24px;
+  position: absolute;
+  left: 8px;
+  top: 7px;
+  
+}
+.sidebar-link div{
+  font-family: Roboto,Arial;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 55px;
+
+}
+.home-bar{
+  background-color: rgba(235, 238, 238, 0.993);
+}
+.subscriptions{
+  border-radius: 20px;
+  align-items: center;
+  padding-top: 4px;
+}
+.sidebar-link:first-child{
+  background-color:rgba(235, 238, 238, 0.993) ;
+}
+.sidebar:hover{
+  cursor: pointer;
+}
+.sidebar-titles{
+      font-family: roboto,arial;
+        font-size: 16px;
+        font-weight: 300px;
+        padding-left: 25px;
+        padding-bottom: 10px;
+}
